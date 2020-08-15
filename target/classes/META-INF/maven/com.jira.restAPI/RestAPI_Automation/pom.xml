@@ -75,15 +75,18 @@
 <dependency>
     <groupId>io.rest-assured</groupId>
     <artifactId>json-path</artifactId>
-    <version>4.1.2</version>
+    <version>4.3.0</version>
 </dependency>
+
     
     <!-- https://mvnrepository.com/artifact/io.rest-assured/xml-path -->
 <dependency>
     <groupId>io.rest-assured</groupId>
     <artifactId>xml-path</artifactId>
-    <version>4.3.1</version>
+    <version>4.3.0</version>
 </dependency>
+
+
     
     <!-- https://mvnrepository.com/artifact/io.rest-assured/json-schema-validator -->
 <dependency>
@@ -91,6 +94,8 @@
     <artifactId>json-schema-validator</artifactId>
     <version>4.3.0</version>
 </dependency>
+
+
     
     <!-- https://mvnrepository.com/artifact/org.codehaus.groovy/groovy-xml -->
 <dependency>

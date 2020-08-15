@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="3043" started-at="2020-08-15T13:04:13Z" finished-at="2020-08-15T13:04:16Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="3043" started-at="2020-08-15T13:04:13Z" finished-at="2020-08-15T13:04:16Z">
+      <class name="oAuth_Automation.BasicResponse">
+        <test-method status="PASS" signature="ab()[pri:0, instance:oAuth_Automation.BasicResponse@735f7ae5]" name="ab" duration-ms="3002" started-at="2020-08-15T18:34:13Z" finished-at="2020-08-15T18:34:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ab -->
+      </class> <!-- oAuth_Automation.BasicResponse -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

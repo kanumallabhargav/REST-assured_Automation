@@ -1,6 +1,8 @@
 package com.jira.restAPi.REST_assured_Automation;
 import static io.restassured.RestAssured.*;
 
+import java.io.File;
+
 import io.restassured.RestAssured;
 import io.restassured.filter.session.SessionFilter;
 
@@ -19,9 +21,10 @@ public class JIRA_Testing {
 		System.out.println(response);
 		
 		given().pathParam("id", "10003").log().all()
-		.header("Content-Type","application/json")
+		.header("Content-Type","multipart/form-data ")
 		.body(JSON_Body_basic.body())
 		.filter(session)
+		.multiPart("file", new File("jira.txt"))
 		.when().post("/rest/api/2/issue/{id}/comment")
 		.then().log().all().assertThat().statusCode(201);
 	}
