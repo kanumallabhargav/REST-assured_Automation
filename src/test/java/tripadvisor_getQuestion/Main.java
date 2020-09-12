@@ -5,7 +5,7 @@ import java.util.List;
 public class Main 
 {
 	private boolean has_more_answers;
-	private List<answers> answers;
+	private List<answers> answers; 
 
 
 	public List<answers> getAnswers() {
